@@ -1,0 +1,3 @@
+مشکل datasieve compatibility: خطای 'Pipeline' object has no attribute 'features_in'
+این یک مشکل compatibility بین datasieve library و نسخه فعلی Freqtrade است
+نیاز به update یا downgrade datasieve دارد

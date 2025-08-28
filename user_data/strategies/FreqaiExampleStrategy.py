@@ -40,7 +40,7 @@ class FreqaiExampleStrategy(IStrategy):
     minimal_roi = {"0": 0.1, "240": -1}
     stoploss = -0.05
     use_exit_signal = True
-    can_short = True
+    can_short = False
     process_only_new_candles = True
     
     # Maximum startup candle count - must be >= max(indicator_periods_candles)
